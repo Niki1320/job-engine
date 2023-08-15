@@ -1,41 +1,40 @@
 import React from "react";
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import "./index.css";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
-function App(){
+
+function App() {
   return (
-    <div className="main">
-         <div className="logo">
+  <div>
+    <div className="logo">
              <span>Linked</span>
              <LinkedInIcon fontSize="large"/>
          </div>
-         <div className="signup_form">
-               <form>
-                    <div className="element">
-                    <label>Name</label>
-                    <input type="text" placeholder="Enter Your Name"/>
-                    </div>
-                    
-                    <div className="element">
-                    <label>Email</label>
-                    <input type="text" placeholder="Enter Email"/>
-                    </div>
-                    
-                    <div className="element">
-                    <label>Create Password</label>
-                    <input type="text" placeholder="Create Password"/>
-                    </div>
-                    
-                    <div className="element">
-                    <label>Confirm Password</label>
-                    <input type="text" placeholder="Confirm Password"/>
-                    </div>
-                    
-                    <button type="submit">Sign Up</button>
-               </form>
-         </div>
+    <h1>Welcome to Your Professional Community!</h1>
+    <div className='login'>
+        <div className="inner_log">Login</div>
+        <div className='email'>
+          <label>Email</label>
+          <br/>
+          <input type="email" placeholder="Email Id" autoComplete="off" />
+        </div>
+        <div className='password'>
+          <label>Password</label>
+          <br/>
+          <input type="password" placeholder='Password' />
+        </div>
+          <button type="submit">Login</button>
+        <div className="join_now">
+          <p>New User?</p>
+          <a href="" >Join Now</a>
+        </div>
+          
+        
     </div>
-  )
+  </div>
+    
+
+  );
 }
 
 export default App;
