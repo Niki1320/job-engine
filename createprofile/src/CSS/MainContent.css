@@ -1,0 +1,96 @@
+.content{
+    margin-left: 350px;
+}
+
+.content h3{
+    margin-left:15%;
+    margin-top:20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #BA704F;
+}
+
+.Upper .options{
+    margin-left:20px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.options label{
+    margin-right:20px;
+    font-size:25px;
+}
+.options input{
+  height:30px;
+  width:300px;
+  outline: 0;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.Lower .options{
+    margin-left:20px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.social{
+    margin-left:20px;
+    margin-top:20px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    color: #BA704F;
+    font-weight: bold;
+} 
+button{
+    height:45px;
+    width:357px;
+    margin-top: 25px;
+    margin-left: 100px;
+    outline: 0;
+    background-color: #BA704F;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+.experience,.education{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.experience a{
+    text-decoration: none;
+    color: black;
+    font-size:25px;
+    font-weight: bold;
+}
+.education a{
+    text-decoration: none;
+    color: black;
+    font-size:25px;
+    font-weight: bold;
+}
+input[name='company']{
+        margin-left: 45px;
+}
+input[name='location']{
+    margin-left: 30px;
+}
+input[name='skills']{
+    margin-left: 60px;
+}
+input[name='about']{
+    margin-left: 75px;
+}
+input[name='github']{
+    margin-left: 60px;
+}
+input[name='twitter']{
+    margin-left: 45px;
+}
+input[name='facebook']{
+    margin-left: 30px;
+}
