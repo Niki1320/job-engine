@@ -1,0 +1,61 @@
+.post {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; /* Set to column to stack children vertically */
+  }
+  
+  .post .post_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .post .post_header .post_header_left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .post .post_header .post_header_left h3 {
+    font-size: 14px;
+    margin: 0px;
+    margin-left: 10px;
+  }
+  
+  .post .post_header .post_header_left p {
+    font-size: 14px;
+    margin: 0px;
+    margin-left: 10px;
+  }
+  
+  .post_body p {
+    font-size: 14px;
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+  
+  .post_footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  
+  .post_footer .post_footer_opt {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .post_footer .post_footer_opt svg {
+    margin-right: 15px;
+    color: #333;
+  }
+  
+  .post_footer .post_footer_opt span {
+    color: rgb(90, 90, 90);
+    font-size: 12px;
+  }
+  

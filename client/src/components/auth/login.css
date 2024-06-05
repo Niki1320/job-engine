@@ -1,0 +1,109 @@
+.main-body {
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color:#FAF3F0;
+    width: 100%;
+    padding: 0;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  h1{
+    margin-left:15%;
+    margin-top:40px;
+    font-size: 40px;
+    color: #BA704F;
+  }
+  
+  a{
+    display: inline;
+  }
+  .login{
+    margin-left:10%;
+    font-weight: bold;
+  }
+  
+  .inner_log{
+    font-size: 40px;
+    margin-left: 40%;
+    color: #BA704F;
+  
+  }
+  
+  div input{
+    height:40px;
+    width:300px;
+    outline: 0;
+    margin-top: 7px;
+    font-size: 15px;
+  }
+  
+  #btn-css{
+    height:45px;
+    width:300px;
+    margin-top: 25px;
+    outline: 0;
+    background-color: #BA704F;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left:30%;
+  }
+  
+  #password{
+    margin-top: 10px;
+    padding: 0;
+    width: 830px;
+  }
+  #email {
+    margin-top: 10px;
+    padding: 0;
+    width: 830px;
+  }
+  
+  label{
+    font-weight: normal;
+    font-size: 25px;
+  }
+  
+  input::placeholder {
+    font-size: 16px; 
+    font-family: 'Courier New', Courier, monospace;
+    color: #999; 
+  }
+  p{
+    font-size: x-large;
+  }
+  #new{
+    text-decoration: none;
+    font-size: x-large;
+    color: #BA704F;
+  }
+  
+  #join_now{
+    margin-left: 40%;
+  }
+  .logo{
+    display: inline-flex;
+    flex-direction: row;
+    margin-left:45%;
+    margin-top: 20px;
+    align-items: center;
+  }
+  .logo span{
+    color:#4477CE;
+    font-weight:bold;
+    font-size:30px;
+    margin-top:5px;;
+    margin-right: 0px;
+    padding: 2px;
+  }
+  .logo svg{
+     padding:2px;
+     margin-left: 0px;
+  }

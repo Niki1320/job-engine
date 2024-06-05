@@ -1,0 +1,72 @@
+.maincont{
+    background-color: #FAF3F0;
+}
+.maincont h3{
+    margin-left:40%;
+    margin-top:20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #BA704F;
+}
+.options label{
+    margin-left:200px;
+    font-size:25px;
+    color:#BA704F;
+}
+.options input{
+  height:30px;
+  width:300px;
+  outline: 0;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.options{
+    margin-left:20px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+button{
+    height:45px;
+    width:357px;
+    margin-top: 25px;
+    margin-left: 300px;
+    outline: 0;
+    background-color: #BA704F;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+input[name='school']{
+    margin-left: 50px;
+}
+select[name='degree']{
+    margin-left: 45px;
+    height:40px;
+    width:307px;
+    outline: 0;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+input[name='school']{
+    margin-left: 100px;
+}
+select[name='degree']{
+    margin-left: 68px;
+    }
+input[name='fieldofstudy']{
+margin-left: 80px;
+}
+input[name='from']{
+    margin-left: 120px;
+    }
+input[name='to']{
+margin-left: 45px;
+}
+input[name='gpa']{
+    margin-left: 180px;
+}
+textarea[name="description"] {
+    margin-left:200px;
+}

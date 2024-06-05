@@ -1,0 +1,116 @@
+.content{
+    /* margin-left: 100px; */
+    background-color: #FAF3F0;
+}
+
+.content h3{
+    margin-left:40%;
+    margin-top:20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #BA704F;
+}
+
+.Upper #options{
+    margin-left:20px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+#options label{
+    margin-left:200px;
+    font-size:25px;
+    color:#BA704F;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#options input{
+  height:30px;
+  width:300px;
+  outline: 0;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.Lower #options{
+    margin-left:20px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.social{
+    margin-left:300px;
+    margin-top:20px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    color: #BA704F;
+    font-weight: bold;
+} 
+#btn2{
+    height:45px;
+    width:357px;
+    margin-top: 25px;
+    margin-left: 350px;
+    outline: 0;
+    background-color: #BA704F;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+.experience,.education{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.experience a{
+    text-decoration: none;
+    color: black;
+    font-size:25px;
+    font-weight: bold;
+}
+.education a{
+    text-decoration: none;
+    color: black;
+    font-size:25px;
+    font-weight: bold;
+}
+input[name='status'] {
+    margin-left:200px;
+}
+input[name='company']{
+        margin-left: 245px;
+}
+input[name='website'] {
+    margin-left: 245px;
+}
+input[name='location']{
+    margin-left: 230px;
+}
+input[name='skills']{
+    margin-left: 260px;
+    width: 50px;
+}
+input[name='bio']{
+    margin-left: 550px;
+}
+input[name='github']{
+    margin-left: 60px;
+}
+input[name='twitter']{
+    margin-left: 45px;
+}
+input[name='facebook']{
+    margin-left: 30px;
+}
+input[name='twitter'], input[name='facebook']  {
+    margin-left:50px;
+}
+input[name='youtube'] {
+    margin-left:44px;
+}
+input[name='linkedin'],input[name='instagram'] {
+    margin-left:58px;
+}

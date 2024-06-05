@@ -1,0 +1,54 @@
+.maincont{
+    margin-left:10px;
+}
+.maincont h3{
+    margin-left:20%;
+    margin-top:20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #BA704F;
+}
+.options1 label{
+    margin-left:200px;
+    font-size:25px;
+    color:#BA704F;
+}
+.options1 input{
+    height:30px;
+    width:300px;
+    outline: 0;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+.options1{
+    margin-left:20px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.btn1{
+    height:45px;
+    width:357px;
+    margin-top: 25px;
+    margin-left: 350px;
+    outline: 0;
+    background-color: #BA704F;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+  }
+
+input[name='title']{
+    margin-left: 135px;
+    width: 350px;
+}
+input[name='company']{
+margin-left: 120px;
+width: 350px;
+}
+input[name='from']{
+width: 350px;
+}
+textarea[name='description']{
+margin-left: 5px;
+}
